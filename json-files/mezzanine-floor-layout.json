@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "documentName": "General Arrangement Plan - Mezzanine Floor Units 1 & 2 - Elev 340'-0\"",
+    "documentNumbers": ["8325-1", "220905"],
+    "revisionInfo": ["MAIN"],
+    "revisionDates": [],
+    "revisionNumbers": [],
+    "revisionBy": [],
+    "unitInfo": "Units 1 & 2",
+    "elevation": "340'-0\""
+  },
+  "buildings": [
+    {
+      "id": "main_building",
+      "name": "MAIN BUILDING",
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "dimensions": { "width": 360, "height": 30, "depth": 200 },
+      "color": "#888888"
+    }
+  ],
+  "structures": [
+    {
+      "id": "boiler_unit_1",
+      "name": "BOILER NO. 1",
+      "type": "equipment",
+      "position": { "x": -90, "y": 0, "z": -20 },
+      "dimensions": { "width": 80, "height": 40, "depth": 40 },
+      "color": "#5588AA"
+    },
+    {
+      "id": "boiler_unit_2",
+      "name": "BOILER NO. 2",
+      "type": "equipment",
+      "position": { "x": 90, "y": 0, "z": -20 },
+      "dimensions": { "width": 80, "height": 40, "depth": 40 },
+      "color": "#5588AA"
+    },
+    {
+      "id": "mills_unit_1",
+      "name": "MILLS",
+      "type": "equipment",
+      "position": { "x": -140, "y": 0, "z": -30 },
+      "dimensions": { "width": 25, "height": 15, "depth": 120 },
+      "color": "#778899"
+    },
+    {
+      "id": "mills_unit_2",
+      "name": "MILLS",
+      "type": "equipment",
+      "position": { "x": 140, "y": 0, "z": -30 },
+      "dimensions": { "width": 25, "height": 15, "depth": 120 },
+      "color": "#778899"
+    },
+    {
+      "id": "transfer_tower",
+      "name": "TRANSFER TOWER",
+      "type": "equipment",
+      "position": { "x": 0, "y": 0, "z": -100 },
+      "dimensions": { "width": 40, "height": 20, "depth": 30 },
+      "color": "#BBAA88"
+    },
+    {
+      "id": "turbine_hall_floor_unit_1",
+      "name": "TURBINE HALL FLOOR",
+      "type": "structural",
+      "position": { "x": -90, "y": 0, "z": 40 },
+      "dimensions": { "width": 150, "height": 5, "depth": 60 },
+      "color": "#AAAAAA"
+    },
+    {
+      "id": "turbine_hall_floor_unit_2",
+      "name": "TURBINE HALL FLOOR",
+      "type": "structural",
+      "position": { "x": 90, "y": 0, "z": 40 },
+      "dimensions": { "width": 150, "height": 5, "depth": 60 },
+      "color": "#AAAAAA"
+    }
+  ],
+  "misc": [
+    {
+      "id": "pulverizer_fuel_hopper_1",
+      "name": "PULVERIZER FUEL HOPPER",
+      "type": "equipment",
+      "position": { "x": -140, "y": 0, "z": -60 },
+      "dimensions": { "width": 20, "height": 10, "depth": 20 },
+      "color": "#778899"
+    },
+    {
+      "id": "pulverizer_fuel_hopper_2",
+      "name": "PULVERIZER FUEL HOPPER",
+      "type": "equipment",
+      "position": { "x": 140, "y": 0, "z": -60 },
+      "dimensions": { "width": 20, "height": 10, "depth": 20 },
+      "color": "#778899"
+    },
+    {
+      "id": "service_water_tank",
+      "name": "SERVICE WATER TANK",
+      "type": "equipment",
+      "position": { "x": 0, "y": 0, "z": 70 },
+      "dimensions": { "width": 25, "height": 15, "depth": 25 },
+      "color": "#6699BB"
+    },
+    {
+      "id": "control_room",
+      "name": "CONTROL ROOM",
+      "type": "room",
+      "position": { "x": 0, "y": 0, "z": 30 },
+      "dimensions": { "width": 60, "height": 10, "depth": 40 },
+      "color": "#AABBCC"
+    },
+    {
+      "id": "dust_collector_unit_1",
+      "name": "DUST COLLECTOR UNIT 1",
+      "type": "equipment",
+      "position": { "x": -125, "y": 0, "z": 80 },
+      "dimensions": { "width": 15, "height": 10, "depth": 15 },
+      "color": "#BBAA88"
+    },
+    {
+      "id": "dust_collector_unit_2",
+      "name": "DUST COLLECTOR UNIT 2",
+      "type": "equipment",
+      "position": { "x": 125, "y": 0, "z": 80 },
+      "dimensions": { "width": 15, "height": 10, "depth": 15 },
+      "color": "#BBAA88"
+    },
+    {
+      "id": "steam_drum_unit_1",
+      "name": "STEAM DRUM",
+      "type": "equipment",
+      "position": { "x": -90, "y": 5, "z": -30 },
+      "dimensions": { "width": 30, "height": 8, "depth": 10 },
+      "color": "#5588AA"
+    },
+    {
+      "id": "steam_drum_unit_2",
+      "name": "STEAM DRUM",
+      "type": "equipment",
+      "position": { "x": 90, "y": 5, "z": -30 },
+      "dimensions": { "width": 30, "height": 8, "depth": 10 },
+      "color": "#5588AA"
+    },
+    {
+      "id": "coal_bunkers_unit_1",
+      "name": "COAL BUNKERS",
+      "type": "equipment",
+      "position": { "x": -140, "y": 10, "z": -20 },
+      "dimensions": { "width": 40, "height": 20, "depth": 100 },
+      "color": "#555555"
+    },
+    {
+      "id": "coal_bunkers_unit_2",
+      "name": "COAL BUNKERS",
+      "type": "equipment",
+      "position": { "x": 140, "y": 10, "z": -20 },
+      "dimensions": { "width": 40, "height": 20, "depth": 100 },
+      "color": "#555555"
+    },
+    {
+      "id": "elevators",
+      "name": "ELEVATORS",
+      "type": "access",
+      "position": { "x": 0, "y": 0, "z": -30 },
+      "dimensions": { "width": 10, "height": 20, "depth": 10 },
+      "color": "#AAAAAA"
+    },
+    {
+      "id": "maintenance_area_unit_1",
+      "name": "MAINTENANCE AREA",
+      "type": "space",
+      "position": { "x": -90, "y": 0, "z": 10 },
+      "dimensions": { "width": 40, "height": 10, "depth": 30 },
+      "color": "#DDDDDD"
+    },
+    {
+      "id": "maintenance_area_unit_2",
+      "name": "MAINTENANCE AREA",
+      "type": "space",
+      "position": { "x": 90, "y": 0, "z": 10 },
+      "dimensions": { "width": 40, "height": 10, "depth": 30 },
+      "color": "#DDDDDD"
+    },
+    {
+      "id": "cable_trays_unit_1",
+      "name": "CABLE TRAYS",
+      "type": "infrastructure",
+      "position": { "x": -50, "y": 15, "z": 0 },
+      "dimensions": { "width": 80, "height": 2, "depth": 120 },
+      "color": "#CCCCCC"
+    },
+    {
+      "id": "cable_trays_unit_2",
+      "name": "CABLE TRAYS",
+      "type": "infrastructure",
+      "position": { "x": 50, "y": 15, "z": 0 },
+      "dimensions": { "width": 80, "height": 2, "depth": 120 },
+      "color": "#CCCCCC"
+    }
+  ]
+}
