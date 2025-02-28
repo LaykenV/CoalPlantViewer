@@ -25,6 +25,7 @@ export default function FileUpload() {
           router.push('/viewer');
         }
       } catch (err) {
+        console.error('Error parsing JSON:', err);
         setError('Invalid JSON file. Please check the file format.');
       } finally {
         setIsLoading(false);
